@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        maven 'myMaven'  // 젠킨스에서 설치한 이름
+        maven 'my-maven'  // 젠킨스에서 설치한 이름
     }
     environment {
         APP_NAME = 'ex02-app'
