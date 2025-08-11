@@ -13,7 +13,7 @@ pipeline {
         PORT = '8081'
     }
     stages {
-        stage('0. 자동화 확인1') { steps { echo '스테이지 출발' } }
+        stage('0. 자동화 확인2') { steps { echo '스테이지 출발' } }
         
         stage('1. Build') {
             steps {
